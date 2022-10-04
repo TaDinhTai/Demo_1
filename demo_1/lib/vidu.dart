@@ -17,7 +17,10 @@ class CounterApp extends StatelessWidget {
         body: Center(
           child: Text(
             'Xin chao!',
-            style: TextStyle(fontSize: 30, color: Colors.blue[300]),
+            style: TextStyle(
+              fontSize: 30,
+              color: Colors.blue[300],
+            ),
           ),
         ),
       ),
